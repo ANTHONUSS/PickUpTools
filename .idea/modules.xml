@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PickUpTools.iml" filepath="$PROJECT_DIR$/.idea/modules/PickUpTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PickUpTools.client.iml" filepath="$PROJECT_DIR$/.idea/modules/PickUpTools.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PickUpTools.main.iml" filepath="$PROJECT_DIR$/.idea/modules/PickUpTools.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/PickUpTools.test.iml" filepath="$PROJECT_DIR$/.idea/modules/PickUpTools.test.iml" />
+    </modules>
+  </component>
+</project>

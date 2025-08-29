@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "pickuptools",
+  "version": "${version}",
+  "name": "PickUpTools",
+  "description": "Pick up block but for tools!",
+  "authors": ["ANTHONUS"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/pickuptools/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "fabric-datagen": [
+      "fr.anthonus.pickuptools.client.PickuptoolsDataGenerator"
+    ],
+    "client": [
+      "fr.anthonus.pickuptools.client.PickuptoolsClient"
+    ],
+    "main": [
+      "fr.anthonus.pickuptools.Pickuptools"
+    ]
+  },
+  "mixins": [
+    "pickuptools.mixins.json",
+    {
+      "config": "pickuptools.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
